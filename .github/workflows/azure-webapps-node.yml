@@ -1,32 +1,43 @@
-name: Manual GitHub Pages Deploy
+name: Deploy PodConnect Frontend to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main]  # triggers on push to main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      # 1️⃣ Checkout the repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - name: Install dependencies
+      # 3️⃣ Install backend dependencies (optional, if you need to build backend)
+      - name: Install backend dependencies
         working-directory: PodConnect
         run: npm install
 
-      - name: Build project
-        working-directory: PodConnect
-        run: npm run build
+      # 4️⃣ Install frontend dependencies
+      - name: Install frontend dependencies
+        working-directory: PodConnect/client
+        run: npm install
 
+      # 5️⃣ Build frontend (if using Vite/React build script)
+      - name: Build frontend
+        working-directory: PodConnect/client
+        run: npm run build  # outputs to client/dist if configured
+
+      # 6️⃣ Deploy frontend to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: PodConnect/dist
+          # Change to client/dist if you have a build folder
+          publish_dir: PodConnect/client/dist
