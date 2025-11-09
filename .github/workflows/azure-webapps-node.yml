@@ -2,7 +2,7 @@ name: Deploy NextStopRussia Frontend to GitHub Pages
 
 on:
   push:
-    branches: [main]  # trigger on push to main
+    branches: [main]  # triggers on push to main
 
 jobs:
   build-and-deploy:
@@ -19,25 +19,14 @@ jobs:
         with:
           node-version: '18'
 
-      # 3️⃣ Install backend dependencies (optional)
-      - name: Install backend dependencies
-        working-directory: PodConnect
-        run: npm install
-
-      # 4️⃣ Install frontend dependencies
+      # 3️⃣ Install frontend dependencies
       - name: Install frontend dependencies
         working-directory: PodConnect/client
         run: npm install
 
-      # 5️⃣ Build frontend
-      - name: Build frontend
-        working-directory: PodConnect/client
-        run: npm run build
-
-      # 6️⃣ Deploy frontend to GitHub Pages
+      # 4️⃣ Deploy frontend to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # This must point to the folder containing index.html at root
-          publish_dir: PodConnect/client/dist
+          publish_dir: PodConnect/client  # index.html must be directly here
