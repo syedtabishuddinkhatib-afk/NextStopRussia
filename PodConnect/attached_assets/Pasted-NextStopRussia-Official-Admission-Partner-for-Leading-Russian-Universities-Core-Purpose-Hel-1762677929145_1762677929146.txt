@@ -1,0 +1,242 @@
+NextStopRussia
+
+> “Official Admission Partner for Leading Russian Universities”
+
+
+
+Core Purpose:
+Helping students from India, Pakistan, Saudi Arabia, and Iran secure authentic, verified admissions into Russia’s top medical, engineering, business, and science universities — all through one trusted platform.
+
+
+---
+
+💡 Business Identity Summary
+
+Element	Description
+
+Business Name	NextStopRussia
+Tagline	“Your Verified Gateway to Study in Russia”
+Focus Countries	India 🇮🇳, Pakistan 🇵🇰, Saudi Arabia 🇸🇦, Iran 🇮🇷
+Target Programs	MBBS / MD, Dentistry, Pharmacy, Engineering, Business, Computer Science, Nursing, MBA, etc.
+Differentiator	Official authorization letters from multiple Russian universities (proof displayed online).
+
+
+
+---
+
+🌐 Website Structure for Multi-University Model
+
+🏠 Home Page
+
+Goal: Instantly show authority + make it easy for students to start applying.
+
+Sections:
+
+Hero Banner:
+“Official Admission Partner for Russia’s Top Universities”
+→ Button: Apply Now
+
+3 Key Highlights:
+
+Authorized by Multiple Russian Universities
+
+100% Transparent Admission Process
+
+Visa & Pre-departure Support
+
+
+Featured Universities (with logos)
+
+Quick Program Finder (Medicine | Engineering | Business | etc.)
+
+Testimonials & Success Stories
+
+“Why Choose NextStopRussia?”
+
+
+
+---
+
+📚 Universities Page
+
+This page will list all universities you are officially tied with.
+
+Example Format:
+
+🏛 IM Sechenov University, Moscow
+
+Russia’s oldest medical university.
+
+Programs: MBBS, Dentistry, Pharmacy.
+
+Medium: English/Russian
+
+Duration: 6 years
+
+✅ [View Authorization Letter]
+
+
+🏛 Kazan Federal University
+
+Prestigious multidisciplinary university.
+
+Programs: Medicine, Engineering, IT, Business.
+
+✅ [View Authorization Letter]
+
+
+🏛 Peoples’ Friendship University (RUDN)
+
+Globally diverse university with 150+ countries represented.
+
+Programs: MBBS, Engineering, Management.
+
+✅ [View Authorization Letter]
+
+
+(and so on for each)
+
+> 🔗 Each university listing can link to a detailed info page showing:
+
+Eligibility
+
+Tuition Fees
+
+Application Deadlines
+
+Living Costs
+
+Campus Photos
+
+Letter of Authorization (PDF/Scan)
+
+
+
+
+
+---
+
+🎓 Programs Page
+
+Group all degrees and fields offered:
+
+Medicine (MBBS, MD)
+
+Dentistry
+
+Nursing
+
+Pharmacy
+
+Engineering (Mechanical, Civil, Computer)
+
+Business & Management (BBA, MBA)
+
+Computer Science
+
+Postgraduate & PhD
+
+
+Each section will show:
+
+Duration
+
+Medium of Instruction
+
+Admission Intakes
+
+Eligibility
+
+Tuition Fees (average)
+
+
+
+---
+
+🧭 Admission Process
+
+Step-by-step with graphics:
+
+1. Submit Application Form
+
+
+2. Get Offer Letter
+
+
+3. Pay Admission/Invitation Fees
+
+
+4. Receive University Invitation
+
+
+5. Apply for Student Visa
+
+
+6. Fly to Russia (Airport Pickup + Accommodation Assistance)
+
+
+
+✅ Include a downloadable PDF “Admission Guide to Study in Russia”.
+
+
+---
+
+📄 Required Documents
+
+List for all applicants:
+
+Passport copy (valid 18+ months)
+
+Academic certificates
+
+Photos (3×4 cm)
+
+Medical certificate
+
+COVID-19 vaccination proof
+
+Application form
+
+
+
+---
+
+🔍 Verify Authorization
+
+Your trust page. This is where you’ll upload and display scanned copies of your official partnership letters.
+
+Structure example:
+
+> “NextStopRussia is officially authorized by the following universities for international student admissions. You can verify by viewing the documents below or contacting the respective universities directly.”
+
+
+
+Then show cards or tiles:
+
+Sechenov University → [View Letter]
+
+Kazan Federal University → [View Letter]
+
+RUDN University → [View Letter]
+
+etc.
+
+
+You can even add QR codes for each letter linking to PDFs.
+
+
+---
+
+📞 Contact Page
+
+Include:
+
+Contact form (Name, Country, Desired Program)
+
+WhatsApp link (“Chat with Admission Advisor”)
+
+Email: info@nextstoprussia.com
+
+Office address (India or regional)
+
+Social media links (Instagram, Facebook, YouTube)
