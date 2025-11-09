@@ -2,31 +2,31 @@ name: Deploy NextStopRussia Frontend to GitHub Pages
 
 on:
   push:
-    branches: [main]  # triggers on push to main
+    branches: [main]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      # 3️⃣ Install frontend dependencies
       - name: Install frontend dependencies
         working-directory: PodConnect/client
         run: npm install
 
-      # 4️⃣ Deploy frontend to GitHub Pages
+      - name: Build frontend
+        working-directory: PodConnect/client
+        run: npm run build
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: PodConnect/client  # index.html must be directly here
+          publish_dir: PodConnect/client/dist  # contains index.html now
